@@ -35,7 +35,7 @@ class teamMember03:
         total_price = sum(float(row["Price"]) for row in data)
         overall_avg = total_price / len(data)
 
-        print("team member 03 says:")
+        print("team member 03:")
         print(f"{top_brand} has the highest average resale price at ${top_price:.2f}")
         print(f"The overall average is ${overall_avg:.2f}")
 
